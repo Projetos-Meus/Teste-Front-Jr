@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Css/Home.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header-container">
+      <h1>Seja bem vindo digite seu CEP para receber nossas promoções</h1>
+    </div>
+
+    <form method="Get" action=".">
+      <h2>Busca Cep</h2>
+
+      <input name="cep" type="text" id="cep" value="" onblur="pesquisaCep(this.value)" size="10" maxlength="9"
+        placeholder="Digite seu CEP">
+      <input name="rua" type="text" id="rua" placeholder="Rua">
+      <input name="cidade" type="text" id="cidade" placeholder="Cidade">
+      <input name="uf" type="text" id="uf" placeholder="Uf">
+      <button type="submit" class="buscaButton()">
+        <h3>Buscar</h3>
+      </button>
+    </form>
+
+    <div class="footer-container">
+      <button class="btn-footer">
+        <h3><a href="./Offers.html">Veja nossas ofertas</a></h3>
+      </button>
+    </div>
+  </div>
+
+  <script src="../Js/Home.js" type="text/javascript"></script>
+</body>
+
+</html>
